@@ -199,4 +199,4 @@ def select():
 #     return render_template('select.html', movies=movies, results=response['total_results'], pages=response['total_pages'], title=title, current_page=page)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
