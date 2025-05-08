@@ -60,8 +60,8 @@ class Movie(db.Model):
         return f'<Movie {self.title}>'
 
 
-# with app.app_context():
-#     db.create_all()
+with app.app_context():
+    db.create_all()
 
 
 # CREATE TABLE
